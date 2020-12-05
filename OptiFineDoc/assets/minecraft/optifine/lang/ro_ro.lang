@@ -52,7 +52,7 @@ of.message.loadingVisibleChunks=Incarca chunk-urile vizibile
 # Video settings
 
 options.graphics.tooltip.1=Calitate vizuala
-options.graphics.tooltip.2=  Rapid  - calitate mica, rapid
+options.graphics.tooltip.2=  Rapid - calitate mica, rapid
 options.graphics.tooltip.3=  Atractiv - calitate mare, lent
 options.graphics.tooltip.4=Schimba aspectul norilor, frunzelor, apei,
 options.graphics.tooltip.5=umbrelor si fetele ierbii.
@@ -71,8 +71,8 @@ options.renderDistance.tooltip.3=  4 Scurt - 64m (rapid)
 options.renderDistance.tooltip.4=  8 Normal - 128m
 options.renderDistance.tooltip.5=  16 Departe - 256m (lent)
 options.renderDistance.tooltip.6=  32 Extrem - 512m (foarte lent!)
-options.renderDistance.tooltip.7=Vederea la distanta Extrem este foarte solicitant pentru resurse!
-options.renderDistance.tooltip.8=Valorile peste 16 Departe are efect doar intr-o lume locala.
+options.renderDistance.tooltip.7=Vederea la distanta Extrem necesita multe resurse!
+options.renderDistance.tooltip.8=Valorile peste 16 Departe au efect doar intr-o lume locala.
 
 options.ao.tooltip.1=Lumina neteda
 options.ao.tooltip.2=  OPRIT - fara lumina neteda (rapid)
@@ -130,7 +130,7 @@ of.options.FOG_FANCY.tooltip.1=Tip de ceata
 of.options.FOG_FANCY.tooltip.2=  Rapid - ceata rara
 of.options.FOG_FANCY.tooltip.3=  Atractiv - ceata deasa, arata mai bine
 of.options.FOG_FANCY.tooltip.4=  OPRIT - fara ceata, rapid
-of.options.FOG_FANCY.tooltip.5=Ceata eleganta este valabila doar pentru
+of.options.FOG_FANCY.tooltip.5=Ceata atractiva este valabila doar pentru
 of.options.FOG_FANCY.tooltip.6=placa grafica care suporta.
 
 of.options.FOG_START=Pornire ceata
@@ -212,7 +212,7 @@ of.options.shaders.HAND_DEPTH_MUL.tooltip.4=  2x - mana departe de camera
 of.options.shaders.HAND_DEPTH_MUL.tooltip.5=Adancimea mainii controleaza cat de departe
 of.options.shaders.HAND_DEPTH_MUL.tooltip.6=fata de camera sunt obiectele din mana.
 of.options.shaders.HAND_DEPTH_MUL.tooltip.7=Pentru shader-uri care folosesc adancimea blurata
-of.options.shaders.HAND_DEPTH_MUL.tooltip.8=ar trebuii sa schimbe blurarea obiectelor din mana.
+of.options.shaders.HAND_DEPTH_MUL.tooltip.8=ar trebui sa schimbe blurarea obiectelor din mana.
 
 of.options.shaders.CLOUD_SHADOW=Umbre Nori
 
@@ -259,7 +259,7 @@ of.options.performance=Performanta...
 of.options.performanceTitle=Setari Performanta
 
 of.options.animations=Animatii...
-of.options.animationsTitle=Setari animatii
+of.options.animationsTitle=Setari Animatii
 
 of.options.other=Altele...
 of.options.otherTitle=Alte Setari
@@ -299,7 +299,7 @@ of.options.AA_LEVEL.tooltip.4=Anti-aliasing-ul netezeste liniile crestate si
 of.options.AA_LEVEL.tooltip.5=ascute tranzitiile culori.
 of.options.AA_LEVEL.tooltip.6=Cand este ACTIV va scadea substantial si FPS-ul.
 of.options.AA_LEVEL.tooltip.7=Nu toate nivelele sunt suportate de toate placile video.
-of.options.AA_LEVEL.tooltip.8=Functioneaza dupa un RESTART!
+of.options.AA_LEVEL.tooltip.8=Functioneaza doar dupa RESTART!
 
 of.options.AF_LEVEL=Filtru Anisotropic
 of.options.AF_LEVEL.tooltip.1=Filtru Anisotropic
@@ -318,8 +318,8 @@ of.options.RANDOM_ENTITIES=Entitati Aleatoare
 of.options.RANDOM_ENTITIES.tooltip.1=Entitati Aleatoare
 of.options.RANDOM_ENTITIES.tooltip.2=  OPRIT - fara entitati aleatoare, rapid
 of.options.RANDOM_ENTITIES.tooltip.3=  ON - entitati aleatoare, lent
-of.options.RANDOM_ENTITIES.tooltip.4=Entitatile aleatoare foloseste texturi aleatoare pentru creaturile jocului.
-of.options.RANDOM_ENTITIES.tooltip.5=Este necesar de un pachet de resurse ce foloseste multiple texturi pentru entitati.
+of.options.RANDOM_ENTITIES.tooltip.4=Optiunea entitati aleatoare foloseste texturi aleatoare pentru creaturile jocului.
+of.options.RANDOM_ENTITIES.tooltip.5=Este necesar de un pachet de resurse care foloseste multiple texturi pentru entitati.
 
 of.options.BETTER_GRASS=Gazon Imbunatatit
 of.options.BETTER_GRASS.tooltip.1=Gazon Imbunatatit
@@ -357,13 +357,13 @@ of.options.SWAMP_COLORS.tooltip.4=Culorile mlastinei afecteaza gazonul, frunzele
 of.options.SMOOTH_BIOMES=Biomuri Netede
 of.options.SMOOTH_BIOMES.tooltip.1=Biomuri Netede
 of.options.SMOOTH_BIOMES.tooltip.2=  ACTIV - netezeste bordurile biomurilor (implicit), lent
-of.options.SMOOTH_BIOMES.tooltip.3=  OPRIT - fara netezire a bordurilor biomurilor, rapid
+of.options.SMOOTH_BIOMES.tooltip.3=  OPRIT - fara netezirea bordurilor biomurilor, rapid
 of.options.SMOOTH_BIOMES.tooltip.4=Netezirea bordurilor biomurilor este facuta de
 of.options.SMOOTH_BIOMES.tooltip.5=media culorii blocurilor incojuratoare aflate in fiecare biom.
 of.options.SMOOTH_BIOMES.tooltip.6=Afecteaza gazonul, frunzele, lianele si apa.
 
 of.options.CONNECTED_TEXTURES=Texturi Conectate
-of.options.CONNECTED_TEXTURES.tooltip.1=CTexturi Conectate
+of.options.CONNECTED_TEXTURES.tooltip.1=Texturi Conectate
 of.options.CONNECTED_TEXTURES.tooltip.2=  OPRIT - fara texturi conectate (implicit)
 of.options.CONNECTED_TEXTURES.tooltip.3=  Rapid - conecteaza texturile rapid
 of.options.CONNECTED_TEXTURES.tooltip.4=  Atractiv - conecteaza texturile elegant
@@ -382,11 +382,11 @@ of.options.NATURAL_TEXTURES.tooltip.6=Foloseste variante rotite si in oglinda a 
 of.options.NATURAL_TEXTURES.tooltip.7=blocului. Configuratia pentru texturile naturale
 of.options.NATURAL_TEXTURES.tooltip.8=sunt furnizate de pachetul de resurse curent.
 
-of.options.EMISSIVE_TEXTURES=Texturi Emissive #How should anyone translate this?
+of.options.EMISSIVE_TEXTURES=Texturi Emisive
 of.options.EMISSIVE_TEXTURES.tooltip.1=Texturi Emissive
-of.options.EMISSIVE_TEXTURES.tooltip.2=  OPRIT - fara texturi emissive (implicit)
-of.options.EMISSIVE_TEXTURES.tooltip.3=  ACTIV - foloseste texturi emissive
-of.options.EMISSIVE_TEXTURES.tooltip.4=Texturile emissive sunt randate ca straturi
+of.options.EMISSIVE_TEXTURES.tooltip.2=  OPRIT - fara texturi emisive (implicit)
+of.options.EMISSIVE_TEXTURES.tooltip.3=  ACTIV - foloseste texturi emisive
+of.options.EMISSIVE_TEXTURES.tooltip.4=Texturile emisive sunt randate ca straturi
 of.options.EMISSIVE_TEXTURES.tooltip.5=Pot fii folosite pentru a simula
 of.options.EMISSIVE_TEXTURES.tooltip.6=parti care emit lumina la baza texturii.
 of.options.EMISSIVE_TEXTURES.tooltip.7=Texturile emissive sunt furnizate de
@@ -421,8 +421,8 @@ of.options.CUSTOM_GUIS.tooltip.4=GUI-urile personalizate sunt furnizate de pache
 
 # Details
 
-of.options.CLOUDS=Nori
-of.options.CLOUDS.tooltip.1=Nori
+of.options.CLOUDS=Nori Personalizati
+of.options.CLOUDS.tooltip.1=Nori Personalizati
 of.options.CLOUDS.tooltip.2=  Implicit - setat prin setarea graficii.
 of.options.CLOUDS.tooltip.3=  Rapid - calitate mica, rapid
 of.options.CLOUDS.tooltip.4=  Atractiv - calitate mare, lent
@@ -482,8 +482,8 @@ of.options.TRANSLUCENT_BLOCKS.tooltip.4=Controleaza amestecarea culorii blocuril
 of.options.TRANSLUCENT_BLOCKS.tooltip.5=cu diferite culori (sticla colorata, apa, gheata)
 of.options.TRANSLUCENT_BLOCKS.tooltip.6=cand sunt puse una in spatele celelalte cu aer intre ele.
 
-of.options.HELD_ITEM_TOOLTIPS=Informatii Obiect Detinut
-of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Informatii Obiect Detinut
+of.options.HELD_ITEM_TOOLTIPS=Informatii Obiecte Detinute
+of.options.HELD_ITEM_TOOLTIPS.tooltip.1=Informatii Obiece tinute in mana
 of.options.HELD_ITEM_TOOLTIPS.tooltip.2=  ACTIV - arata informatii despre obiectul detinut (implicit)
 of.options.HELD_ITEM_TOOLTIPS.tooltip.3=  OPRIT - nu arata informatii despre obiectul detinut
 
@@ -583,7 +583,7 @@ of.options.LAZY_CHUNK_LOADING.tooltip.3= ON - incarcarea lenesa a chunk-urlor se
 of.options.LAZY_CHUNK_LOADING.tooltip.4=Usureaza incarcarea chunk-urilor serverului
 of.options.LAZY_CHUNK_LOADING.tooltip.5=distribuind chunk-urile peste cateva tick-uri.
 of.options.LAZY_CHUNK_LOADING.tooltip.6=Dezactiva-l daca parti ale lumii nu sunt incarcate corect.
-of.options.LAZY_CHUNK_LOADING.tooltip.7=Efectiv doar pentru lumile locale si pentru CPU-urile cu un singur nucleu.
+of.options.LAZY_CHUNK_LOADING.tooltip.7=Eficient doar pentru lumile locale.
 
 of.options.RENDER_REGIONS=Regiuni Render
 of.options.RENDER_REGIONS.tooltip.1=Regiuni Render
@@ -671,13 +671,13 @@ of.options.SHOW_FPS.tooltip.1=Arata FPS-ul compact si informatii despre render.
 of.options.SHOW_FPS.tooltip.2=  C: - chunk-uri rendate
 of.options.SHOW_FPS.tooltip.3=  E: - entitati rendate + entitati blocuri
 of.options.SHOW_FPS.tooltip.4=  U: - actualizari chunk-uri
-of.options.SHOW_FPS.tooltip.5=Informatiile FPS-ului compat sunt vizibile doar cand
+of.options.SHOW_FPS.tooltip.5=Informatiile compacte despre FPS sunt vizibile doar cand
 of.options.SHOW_FPS.tooltip.6=ecranul de debug nu este vizibil.
 
 of.options.save.default=Implicit (2s)
-of.options.save.20s=20s
-of.options.save.3min=3min
-of.options.save.30min=30min
+of.options.save.20s=20 secunde
+of.options.save.3min=3 minute
+of.options.save.30min=30 minute
 
 of.options.AUTOSAVE_TICKS=Auto-Salvare
 of.options.AUTOSAVE_TICKS.tooltip.1=Interval auto-salvare
